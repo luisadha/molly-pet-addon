@@ -2,7 +2,7 @@
 # This hook for pet
 alias molly-come='pet exec'
 alias molly-speak='pet search | tee /dev/tty | xargs -r echo | termux-tts-speak'
-alias molly-jump='eval "$(pet search --query 📁)"'
+alias molly-jump='eval "$(pet search --query 📁)"' # Assume you are adding a favorite directory using zooxide it should be marked with a char 📁 
 alias molly-stay='pet list'
 alias molly-paw='pet edit'
 alias molly-heel='pet sync'
