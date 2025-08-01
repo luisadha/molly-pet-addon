@@ -1,0 +1,5 @@
+_molly_complete() {
+  local cur="${COMP_WORDS[COMP_CWORD]}"
+  COMPREPLY=( $(alias | grep '^alias molly-' | cut -d= -f1 | sed 's/^alias molly-//' | grep "^$cur") )
+}
+complete -F _molly_complete molly
