@@ -1,4 +1,4 @@
-# addon-alias-pet
+# Summary
 Addon aliases for https://github.com/knqyf263/pet
 
 
